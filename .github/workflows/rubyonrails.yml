@@ -7,9 +7,9 @@
 name: "Ruby on Rails Track and Report"
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "main", "upgrade-ordinary_gem" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "main", "upgrade-ordinary_gem" ]
 jobs:
   test:
     runs-on: ubuntu-latest
