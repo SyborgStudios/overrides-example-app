@@ -53,7 +53,7 @@ group :development, :test do
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
 
   gem 'overrides_tracker', git: 'https://github.com/SyborgStudios/overrides_tracker'
-  gem 'ordinary_gem', git: 'https://github.com/SyborgStudios/ordinary-gem', branch: 'main'
+  gem 'ordinary_gem', git: 'https://github.com/SyborgStudios/ordinary-gem', branch: 'next-version'
 end
 
 group :development do

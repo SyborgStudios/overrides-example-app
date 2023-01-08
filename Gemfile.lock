@@ -1,7 +1,7 @@
 GIT
   remote: https://github.com/SyborgStudios/ordinary-gem
-  revision: 680cffe570ec2189f70df41315c727ff03f84c85
-  branch: main
+  revision: 289523a45ccbb4ea1a45c20ffc6acb04c86d39e9
+  branch: next-version
   specs:
     ordinary_gem (0.1.0)
 
