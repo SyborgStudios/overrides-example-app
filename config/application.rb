@@ -11,6 +11,22 @@ module OverridesExampleApp
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 7.0
 
+    decorators = "#{Rails.root}/app/**/*_monkey_patch*.rb"
+    
+    Rails.autoloaders.main.ignore(decorators)
+
+    # Load application's model / class decorators
+  
+    config.to_prepare do
+      Dir.glob(Rails.root.join('app/**/*_monkey_patch*.rb')) do |path|
+        require_dependency(path)
+        Dir.glob(decorators) do |path|
+          load (path)
+        end
+      end
+    end
+  
+
     # Configuration for the application, engines, and railties goes here.
     #
     # These settings can be overridden in specific environments using the files

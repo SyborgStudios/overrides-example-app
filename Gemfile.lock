@@ -1,7 +1,15 @@
-PATH
-  remote: /Users/simonmeyborg/Documents/syborgstudios/projects/overrides_tracker
+GIT
+  remote: https://github.com/SyborgStudios/ordinary-gem
+  revision: 680cffe570ec2189f70df41315c727ff03f84c85
+  branch: main
   specs:
-    overrides_tracker (0.1.11)
+    ordinary_gem (0.1.0)
+
+GIT
+  remote: https://github.com/SyborgStudios/overrides_tracker
+  revision: 1f64ab8c149a1004a95c8404837e3e2abc6acb4a
+  specs:
+    overrides_tracker (0.1.12)
       activesupport
       method_source
 
@@ -225,6 +233,7 @@ DEPENDENCIES
   debug
   importmap-rails
   jbuilder
+  ordinary_gem!
   overrides_tracker!
   puma (~> 5.0)
   rails (~> 7.0.4)
