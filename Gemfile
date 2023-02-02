@@ -52,7 +52,7 @@ group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
 
-  gem 'overrides_tracker', git: 'https://github.com/SyborgStudios/overrides_tracker'
+  gem 'overrides_tracker', path: '/Users/simonmeyborg/Documents/syborgstudios/projects/overrides_tracker' #git: 'https://github.com/SyborgStudios/overrides_tracker'
   gem 'ordinary_gem', git: 'https://github.com/SyborgStudios/ordinary-gem', branch: 'main'
 end
 

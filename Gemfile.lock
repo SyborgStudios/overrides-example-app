@@ -5,11 +5,10 @@ GIT
   specs:
     ordinary_gem (0.1.0)
 
-GIT
-  remote: https://github.com/SyborgStudios/overrides_tracker
-  revision: 1f64ab8c149a1004a95c8404837e3e2abc6acb4a
+PATH
+  remote: /Users/simonmeyborg/Documents/syborgstudios/projects/overrides_tracker
   specs:
-    overrides_tracker (0.1.12)
+    overrides_tracker (0.1.13)
       activesupport
       method_source
 
